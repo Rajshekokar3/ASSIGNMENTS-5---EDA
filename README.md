@@ -1,10 +1,10 @@
-Cardiographic Dataset Exploratory Data Analysis (EDA)
+ # Cardiographic Dataset Exploratory Data Analysis (EDA)
 Welcome to the Cardiographic Dataset EDA project! This repository contains a comprehensive exploratory analysis of the cardiographic.csv dataset. The primary objective of this project is to uncover insights, identify patterns, and understand the underlying structure of the dataset using statistical summaries, data manipulation, and advanced visualizations.
 
-Objective
+# Objective
 To conduct a thorough exploratory data analysis of the cardiographic dataset to gain meaningful insights into fetal health indicators and provide actionable recommendations based on the findings.
 
-Dataset Description
+# Dataset Description
 The dataset comprises key indicators related to fetal health. Below are the features analyzed:
 
 LB - Baseline Fetal Heart Rate (FHR)
@@ -19,12 +19,16 @@ MSTV - Mean Value of Short-Term Variability
 ALTV - Percentage of Time with Abnormal Long-Term Variability
 MLTV - Mean Value of Long-Term Variability
 Tools and Libraries
-The analysis is conducted using Python and the following libraries:
+
+
+# The analysis is conducted using Python and the following libraries:
 
 Data Manipulation: pandas, numpy
 Data Visualization: matplotlib, seaborn
 Documentation and Analysis: Jupyter Notebook
-Project Workflow
+
+
+# Project Workflow
 1. Data Cleaning and Preparation
 The dataset was loaded into a pandas DataFrame.
 Missing values were handled using imputation or removal techniques.
@@ -46,7 +50,9 @@ Trends and patterns were identified to provide actionable insights.
 5. Conclusion
 Summarized the key findings and their implications for decision-making.
 Proposed recommendations for further analysis and potential clinical applications.
-Key Findings
+
+
+# Key Findings
 Weak Correlation Between Baseline FHR (LB) and Uterine Contractions (UC): Minimal direct influence, suggesting other factors may play a larger role.
 Strong Correlation Between Accelerations (AC) and Fetal Movements (FM): Confirms fetal well-being.
 Abnormal Variability Indicators (ASTV/ALTV): Elevated values suggest potential fetal distress, warranting closer monitoring.
